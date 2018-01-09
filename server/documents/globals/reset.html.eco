@@ -17,31 +17,31 @@ themes      : ['Default', 'Basic', 'Resetcss']
 
 <div class="main ui container">
   <div class="ui active tab" data-tab="overview">
-    <h2 class="ui dividing header">What's In Our Reset</h2>
-    <p>Semantic's default theme includes the latest <a href="http://necolas.github.io/normalize.css/">Normalize CSS</a> to provide a base line HTML reset. In addition, Semantic UI requires a <b>Box-sizing</b> reset, to make sure that elements handle width definitions in the same way.</p>
+    <h2 class="ui dividing header">O que esta no nosso Reset!</h2>
+    <p>Tema padrão do Semantic's inclui os ultimos <a href="http://necolas.github.io/normalize.css/">Normalize CSS</a> para oferecer uma linha base HTML reset. Para completar, o Semantic UI requer um <b>Box-sizing</b> reset, para ter a certeza que os elementos trabalhem com as definições do tamanho da mesma forma.</p>
 
     <h2 class="ui dividing header">Reset Options</h2>
     <p>
-      The <b>basic</b> themes <b>only</b> includes the required <code>box-sizing</code> reset and nothing else. The <b>resetcss</b> theme provides a version of <a href="http://meyerweb.com/eric/tools/css/reset/">Reset CSS</a>, a less opinionated CSS reset.
+      O <b>basic</b> tema <b>only</b> inclui o reset requerido <code>box-sizing</code> e nada mais. O <b>resetcss</b> tema oferece uma versão do <a href="http://meyerweb.com/eric/tools/css/reset/">Reset CSS</a>, com menos support de CSS reset.
     </p>
   </div>
   <div class="ui tab" data-tab="test">
     <h2 class="ui dividing header">Reset Test</h2>
       <div class="Test">
         <h2 class="Test-describe"><code>html</code></h2>
-        <h3 class="Test-it">should have sans-serif font family (opinionated)</h3>
+        <h3 class="Test-it">Deve existir uma fonte sans-serif(opção)</h3>
         <div class="Test-run">
           abcdefghijklmnopqrstuvwxyz
         </div>
 
         <h2 class="Test-describe"><code>body</code></h2>
-        <h3 class="Test-it">should have no margin (opinionated)</h3>
+        <h3 class="Test-it">Não deve conter margin(opção)</h3>
         <div class="Test-run">
-          (there should be no red background visible on this page)
+          (Não deve haver background vermelho visivel na pagina)
         </div>
 
         <h2 class="Test-describe"><code>article</code>, <code>aside</code>, <code>details</code>, <code>figure</code>, <code>figcaption</code>, <code>footer</code>, <code>header</code>, <code>hgroup</code>, <code>main</code>, <code>nav</code>, <code>section</code>, <code>summary</code></h2>
-        <h3 class="Test-it">should render as block</h3>
+        <h3 class="Test-it">Deve fazer render como Bloco</h3>
         <div class="Test-run Test-run--highlightEl">
           <article>article</article>
           <aside>aside</aside>
